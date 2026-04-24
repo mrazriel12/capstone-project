@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker compose *)",
+      "Bash(sudo lsof *)",
+      "Bash(go build *)",
+      "Bash(go run *)",
+      "Bash(curl -s http://localhost:8000/health)",
+      "Bash(git remote *)",
+      "Bash(git config *)",
+      "Bash(security find-internet-password *)",
+      "Bash(git credential-osxkeychain *)"
+    ]
+  }
+}
